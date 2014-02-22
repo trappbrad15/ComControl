@@ -1,0 +1,14 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings">
+
+        <EditTextPreference
+            android:id="@+id/pcNameEditText"
+            android:key="pcName"
+            android:title="PC Name"
+            android:summary=""/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
